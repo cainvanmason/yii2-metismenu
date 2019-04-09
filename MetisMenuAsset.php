@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
 class MetisMenuAsset extends AssetBundle{
 
 
-    public $sourcePath = '@vendor/bower-asset/metismenu/dist';
+    public $sourcePath = '@vendor/bower/metismenu/dist';
     public $depends = [
         'yii\web\JqueryAsset'
     ];
